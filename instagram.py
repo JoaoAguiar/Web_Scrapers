@@ -5,7 +5,6 @@ from secrets import email, password, username
 class InstagramBot():
     def __init__(self):
         print("INSTAGRAM BOT")
-        print("Gettin ChromeDriver ...")
 
         self.driver = webdriver.Chrome(executable_path="chromedriver.exe")
         self.driver.set_window_size(1250, 750)
