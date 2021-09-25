@@ -56,7 +56,7 @@ class TinderBot():
 
         print("Password ...")
         password_in = self.driver.find_element_by_xpath('//*[@id="pass"]')
-        password_in.send_keys(passwordF)
+        password_in.send_keys(password)
 
         sleep(2)
 
@@ -118,7 +118,7 @@ class TinderBot():
                     try:
                         self.pop_up()
                     except Exception:
-                         print("Error: {}".format(err))
+                        print("Error: {}".format(err))
 
     def ai_swipe(self):
         n = 0            
@@ -260,5 +260,5 @@ class TinderBot():
 bot = TinderBot()
 bot.login()
 bot.swipe()
-bot.ai_swipe()
+#bot.ai_swipe()
 bot.message()
