@@ -15,12 +15,12 @@ RedditBot will enter the reddit communities leaderboard page and write all the c
 
 This bot only scrolls the page 4 times, which can be changed in the code.
 
+## Job
+This bot, goes to LinkedIn and does a job search, and the user chooses the position, competence or company, the city, state or postal code and the number of scrolls he makes on the page. It saves the company name, job position and city in a text file. 
+
 ## Tinder
 This bot will automatically swipe in Tinder. This bot has 2 modes, a bot that swipes randomly and another that using a CNN artificial intelligence model, takes a database and evaluates the beauty of everyone it sees on Tinder. Depending on the rating given, it likes or dislikes. At the end of seeing 50 people he stops and goes to each person that the user matched and sends a message saying "hola".
 
 The CNN model and database was "created" by someone else, and I just made a few changes.
 
 Note: Didn't try, so most probably doesn't work
-
-## Job
-This bot, goes to LinkedIn and does a job search, and the user chooses the position, competence or company, the city, state or postal code and the number of scrolls he makes on the page. It saves the company name, job position and city in a text file. 
