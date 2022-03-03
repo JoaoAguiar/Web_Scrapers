@@ -12,8 +12,8 @@ while(True):
     warnings.filterwarnings("ignore")
 
     # authenticate API
-    client_auth = requests.auth.HTTPBasicAuth('XJvr4HFEC23fj8FRGQcHVQ', 'ohd_OstAjbp7iCocaIJfoNGhgMF2Jg')
-    data = { 'grant_type': 'password', 'username': 'Low_Commercial4542', 'password': 'Joao199898Aguiar' }
+    client_auth = requests.auth.HTTPBasicAuth('', '')
+    data = { 'grant_type': 'password', 'username': '', 'password': '' }
     headers = {'User-Agent': 'mining/0.0.1'}
 
     # send authentication request for OAuth token
@@ -33,7 +33,7 @@ while(True):
     subreddit = "https://oauth.reddit.com/r/" + "portugal" + "/hot"
     # keyword
     #keyword = input("Keyword: ")
-    keyword = "PCP"
+    keyword = "portugal"
 
     # make a request for the most recent posts
     res = requests.get(subreddit, headers=headers, params=params)
@@ -67,8 +67,8 @@ while(True):
                 elements_list.remove(elements_list[i])
 
     # email address
-    email = "jpaguiar1998@gmail.com" 
-    password = "devktjcaafndyxzm"
+    email = "" 
+    password = ""
 
     message = MIMEMultipart('alternative')
     message['To'] = email
