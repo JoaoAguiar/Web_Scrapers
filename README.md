@@ -15,6 +15,9 @@ RedditBot will enter the reddit communities leaderboard page and write all the c
 
 This bot only scrolls the page 4 times, which can be changed in the code.
 
+## Reddit News
+This bot uses the Reddit API to check the first 100 posts of a subreddit, and then saves the ones that have a certain keyword. After that, send the saved posts to the mail
+
 ## Job
 This bot, goes to LinkedIn and does a job search, and the user chooses the position, competence or company, the city, state or postal code and the number of scrolls he makes on the page. It saves the company name, job position and city in a text file. 
 
